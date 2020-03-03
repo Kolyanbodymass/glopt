@@ -1,0 +1,21 @@
+@import 'libs/fonts';
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import 'blocks/main';
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/buttons';

@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    list-style-type: none;
+    &_item {
+        padding: 0 16px;
+        font-size: 15px;
+        a {
+            color: #ffffff;
+            &:hover {
+                color: #ec644b;
+                border-bottom: 1px solid #ec644b;
+                padding-bottom: 5px;
+            }
+        }
+    }
+}
