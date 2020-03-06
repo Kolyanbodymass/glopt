@@ -1,0 +1,43 @@
+.work {
+    padding: 51px 0 57px 0;
+    background-color: #fff;
+    &__line {
+        width: 148px;
+        height: 1px;
+        background-color: #e93b3b;
+        margin: 20px auto 17px auto;
+    }
+    &__official-descr {
+        font-size: 21px;
+        font-weight: 300;
+        color: #2e2e2e;
+        margin: 0 auto 37px auto;
+        text-align: center;
+        display: block;
+        max-width: 879px;
+      }
+      &__blocks {
+        display: flex;
+        justify-content: space-between;
+      }
+      &__img {
+        margin-bottom: 27px;
+      }
+      &__descr {
+        &_subtitle {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            color: #ec644b;
+            margin-bottom: 10px;
+        }
+        &_text {
+            text-align: justify;
+            max-width: 359px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            line-height: 23px;
+        }
+      }
+}
