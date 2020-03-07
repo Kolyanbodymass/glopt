@@ -1,19 +1,6 @@
 .agent {
     padding: 58px 0 75px 0;
     background: url('../../img/bg/wall.jpg') center (center / cover) no-repeat;
-    &__img {
-        border: solid 1px #ffffff;
-        border-radius: 100%;
-        width: 102px;
-        height: 102px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto 20px auto;
-        img {
-            padding-bottom: 10px;
-        }
-    }
     &__title {
         color: #fff;
         margin-bottom: 22px;
@@ -27,5 +14,8 @@
         display: block;
         margin: 0 auto;
         line-height: 28px;
+    }
+    img {
+        padding-bottom: 10px;
     }
 }
