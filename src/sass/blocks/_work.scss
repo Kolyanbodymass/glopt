@@ -1,28 +1,31 @@
 .work {
     padding: 51px 0 57px 0;
     background-color: #fff;
-      &__blocks {
-        display: flex;
-        justify-content: space-between;
-      }
-      &__img {
-        margin-bottom: 27px;
-      }
-      &__descr {
-        &_subtitle {
-            font-size: 18px;
-            font-weight: 700;
-            text-align: center;
-            color: #ec644b;
-            margin-bottom: 10px;
-        }
-        &_text {
-            text-align: justify;
-            max-width: 359px;
-            font-size: 14px;
-            font-weight: 300;
-            color: #3a3a3a;
-            line-height: 23px;
-        }
-      }
+	&__title {
+		text-transform: uppercase;
+	}
+	&__blocks {
+	display: flex;
+	justify-content: space-between;
+	}
+	&__img {
+	margin-bottom: 27px;
+	}
+	&__descr {
+	&_subtitle {
+		font-size: 18px;
+		font-weight: 700;
+		text-align: center;
+		color: #ec644b;
+		margin-bottom: 10px;
+	}
+	&_text {
+		text-align: justify;
+		max-width: 359px;
+		font-size: 14px;
+		font-weight: 300;
+		color: #3a3a3a;
+		line-height: 23px;
+	}
+	}
 }

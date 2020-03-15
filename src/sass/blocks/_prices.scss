@@ -1,5 +1,8 @@
 .prices {
     padding: 53px 0 28px 0;
+    &__title {
+        text-transform: uppercase;
+    }
     &__blocks {
         display: flex;
         justify-content: space-between;
