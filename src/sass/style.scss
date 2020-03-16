@@ -1,4 +1,5 @@
 @import 'libs/fonts';
+@import 'libs/slick';
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -31,3 +32,6 @@ a {
 @import 'blocks/form';
 @import 'blocks/managers';
 @import 'blocks/scheme';
+@import 'blocks/slider';
+@import 'blocks/reviews';
+
