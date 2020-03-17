@@ -1,5 +1,6 @@
 .reviews {
     padding: 51px 0 65px 0;
+    position: relative;
     &__title {
         text-transform: uppercase;
     };
@@ -7,9 +8,11 @@
         display: flex!important;
         flex-direction: column;
         align-items: center;
+        //margin: 0 45px 0 45px;
     }
     &__img {
         margin-bottom: 18px;
+        width: 15%;
     }
     &__name {
         font-size: 18px;
@@ -17,10 +20,40 @@
         margin-bottom: 10px;
     }
     &__descr {
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 300;
         text-align: center;
         color: #3a3a3a;
-        max-width: 601px;
+        margin: 0 45px 0 45px;
+        text-align: justify;
+    }
+    .slick-slide {
+        opacity: 0.3;
+        margin-top: 30px;
+    }
+    .slick-center {
+        opacity: 1;
+        margin-top: 0;
+        .reviews__descr {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .reviews__img {
+            width: auto;
+        }
+    }
+    .slick-arrow {
+        background-color: inherit;
+        z-index: 5;
+    }
+    .slick-prev {
+        position: absolute;
+        top: 30px;
+        left: 40%;
+    }
+    .slick-next {
+        position: absolute;
+        top: 30px;
+        left: 58%;
     }
 }

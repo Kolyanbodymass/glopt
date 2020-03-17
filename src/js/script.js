@@ -1,13 +1,15 @@
 $(document).ready(function(){ /*функция, которая подключает js код, когда HTML структура документа готова*/
     $('.reviews__items').slick({
-        centerMode: true,
+		centerMode: true,
         centerPadding: '60px',
-        slidesToShow: 3,
+		slidesToShow: 3,
+		speed: 1200,
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/arrow_left.svg"></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="icons/arrow_right.svg"></button>',
         responsive: [
           {
             breakpoint: 768,
             settings: {
-              arrows: false,
               centerMode: true,
               centerPadding: '40px',
               slidesToShow: 3
@@ -16,7 +18,6 @@ $(document).ready(function(){ /*функция, которая подключа�
           {
             breakpoint: 480,
             settings: {
-              arrows: false,
               centerMode: true,
               centerPadding: '40px',
               slidesToShow: 1
