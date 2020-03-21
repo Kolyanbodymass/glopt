@@ -17,6 +17,7 @@ a {
     text-decoration: none;
 }
 
+@import 'blocks/contacts';
 @import 'blocks/main';
 @import 'blocks/header';
 @import 'blocks/menu';
@@ -35,4 +36,5 @@ a {
 @import 'blocks/scheme';
 @import 'blocks/reviews';
 @import 'blocks/communication-form';
+@import 'blocks/footer';
 

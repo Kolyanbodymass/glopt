@@ -1,0 +1,59 @@
+.footer {
+    padding: 24px 0 28px 0;
+    background-color: #25333c;
+    &__logo {
+        width: 71px;
+        margin-right: 44px;
+    }
+    &__wrapper_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__hr {
+        width: 1171px;
+        height: 2px;
+        opacity: 0.3;
+        background-color: #667076;
+        margin: 26px 0 19px 0;
+    }
+    &__wrapper_bottom {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    &__website-creation {
+        text-align: right;
+        margin-right: 42px;
+        position: relative;
+
+    }
+    &__year, &__website-creation {
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__confidentiality {
+        font-size: 13px;
+        font-weight: 300;
+        color: #ec644b;
+        margin-left: 55px;
+    }
+    &__website-creation::after {
+        content: '';
+        background: url(../icons/logo_dkh.png) center no-repeat;
+        width: 39px;
+        height: 32px;
+        display: inline-block;
+        position: absolute;
+        top: -10px;
+    }
+}

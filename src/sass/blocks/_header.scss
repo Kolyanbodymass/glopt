@@ -5,32 +5,4 @@
     &__logo {
         padding-right: 42px;
     }
-    &__contacts {
-        display: flex;
-        justify-content: space-between;
-    }
-    &__contacts_connection {
-        margin-right: 19px;
-        display: flex;
-        flex-direction: column;
-        justify-content: right;
-    }
-    &__contacts_question {
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 1.71;;
-        text-align: right;
-        color: #ffffff;
-    }
-    &__contacts_phone {
-        font-size: 19px;
-        font-weight: 400;
-        line-height: 1.26;
-        color: #ffffff;
-    }
-    &__contacts_btn {
-        font-size: 12px;
-        width: 160px;
-        height: 45px;
-    }
 }
