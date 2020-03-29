@@ -26,7 +26,7 @@
                         <div class="contacts__question">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="contacts__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button class="contacts__btn">перезвоните мне</button>
+                    <button data-modal="consultation" class="contacts__btn">перезвоните мне</button>
                 </div>
             </header>
             <div class="main__description">Global Opt - логистика полного цикла из Китая в Россию</div>
@@ -378,7 +378,7 @@
                         <div class="contacts__question">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="contacts__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button class="contacts__btn">перезвоните мне</button>
+                    <button data-modal="consultation" class="contacts__btn">перезвоните мне</button>
                 </div>
             </div>
             <div class="footer__hr"></div>
@@ -389,6 +389,40 @@
             </div>
         </div>
     </footer>
+
+    <div class="overlay">
+        <div class="overlay_modal" id="modal">
+            <div class="consultation">
+                <div class="consultation__close">&times;</div>
+                <h2 class="consultation__subtitle">Заказать бесплатную консультацию</h2>
+                <div class="consultation__wrapper-img">
+                    <div class="img-avatar consultation__avatar"><img src="icons/consult.png" alt="Заказать бесплатную консультацию"></div>
+                </div>
+                <form action="#" class="feed-form">
+                    <div class="consultation__wrapper">
+                        <input name="name" placeholder="Ваше имя..." type="text">
+                        <input name="phone" placeholder="Ваш номер телефона...">
+                        <input name="email" placeholder="Ваш e-mail..." type="email">
+                    </div>
+                    <div class="consultation__wrapper-btn">
+                        <button class="button button_submit consultation__btn">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="overlay_modal" id="thanks">
+            <div class="consultation">
+                <div class="consultation__close">&times;</div>
+                <h2 class="consultation__subtitle">Спасибо за вашу заявку!</h2>
+                <div class="consultation__wrapper-img">
+                    <div class="img-avatar consultation__avatar"><img src="icons/consult.png" alt="Заказать бесплатную консультацию"></div>
+                </div>
+                <div class="consultation__descr feed-form">Наш менеджер свяжется с вами 
+                    в ближайшее время!</div>
+            </div>
+        </div>
+    </div>
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
