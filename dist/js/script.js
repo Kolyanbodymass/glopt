@@ -54,7 +54,30 @@ $(document).ready(function(){ /*функция, которая подключа�
 			}
 		}
 	});
-	$('#consultation-question').validate();
+	$('#consultation-question').validate({
+		rules: {
+			name: "required",
+			phone: "required",
+			email: {
+				email: true
+			},
+			message: {
+				required: true,
+				minlength: 10
+			}
+		},
+		messages: {
+			name: "Пожалуйста, укажите ваше имя",
+			phone: "Пожалуйста, укажите свой номер телефона",
+			email: {
+				email: "Ваш адрес электронной почты должен быть в формате name@domain.com"
+			},
+			message: {
+				required: "Пожалуйста, введите сообщение",
+				minlength: jQuery.validator.format("Ваше сообщение должно быть не меньше {0} символов!")
+			}
+		}
+	});
 	$('#consultation-modal').validate({
 		rules: {
 			name: "required",
