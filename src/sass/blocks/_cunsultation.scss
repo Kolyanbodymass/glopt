@@ -21,6 +21,7 @@
     }
     &__wrapper {
         margin: 68px 0 53px 0;
+        position: relative;
     }
     &__btn {
         padding: 18px 31px;
@@ -38,6 +39,29 @@
         cursor: pointer;
         color: #ec644b;
         font-size: 30px;
+    }
+    label#name-error {
+        color: red;
+        position: absolute;
+        left: 10px;
+        top: 52px;
+        font-size: 12px;
+    }
+    label#phone-error {
+        color: red;
+        position: absolute;
+        top: 52px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 12px;
+    }
+    label#email-error {
+        color: red;
+        position: absolute;
+        font-size: 12px;
+        top: 52px;
+        right: 0;
+        max-width: 260px;
     }
 }
 .overlay {

@@ -35,4 +35,41 @@ $(document).ready(function(){ /*функция, которая подключа�
 	$('.consultation__close').on('click', function() {
 		$('.overlay, #modal, #thanks').fadeOut('slow');
 	});
+
+	/* Configuring jquery-validation plugin for form validation */
+	
+	$('#consultation-form').validate({
+		rules: {
+			name: "required",
+			phone: "required",
+			email: {
+				email: true
+			}
+		},
+		messages: {
+			name: "Пожалуйста, укажите ваше имя",
+			phone: "Пожалуйста, укажите свой номер телефона",
+			email: {
+				email: "Ваш адрес электронной почты должен быть в формате name@domain.com"
+			}
+		}
+	});
+	$('#consultation-question').validate();
+	$('#consultation-modal').validate({
+		rules: {
+			name: "required",
+			phone: "required",
+			email: {
+				email: true
+			}
+		},
+		messages: {
+			name: "Пожалуйста, укажите ваше имя",
+			phone: "Пожалуйста, укажите свой номер телефона",
+			email: {
+				email: "Ваш адрес электронной почты должен быть в формате name@domain.com"
+			}
+		}
+	});
+
 });

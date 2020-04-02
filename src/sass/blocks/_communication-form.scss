@@ -25,7 +25,7 @@
     }
     &__form-wrapper {
         background-color: RGB(255,255,255, 0.6);
-        padding: 18px 36px 25px 36px;
+        padding: 28px 36px 25px 36px;
     }
     .feed-form {
         border: none;
@@ -46,6 +46,35 @@
         color: #ffffff;
         text-transform: uppercase;
         padding: 18px 31px;
+    }
+    label#name-error {
+        color: red;
+        position: absolute;
+        top: -20px;
+        left: 30px;
+        font-size: 14px;
+    }
+    label#phone-error {
+        color: red;
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+    }
+    label#email-error {
+        color: red;
+        position: absolute;
+        top: -20px;
+        right: 34px;
+        font-size: 14px;
+    }
+    label#message-error {
+        color: red;
+        position: absolute;
+        font-size: 14px;
+        top: 130px;
+        left: 30px;
     }
 
 
