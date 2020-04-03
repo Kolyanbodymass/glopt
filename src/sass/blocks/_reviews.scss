@@ -22,18 +22,17 @@
     &__descr {
         font-size: 10px;
         font-weight: 300;
-        text-align: center;
         color: #3a3a3a;
         margin: 0 45px 0 45px;
         text-align: justify;
     }
-    .slick-slide {
+    .slick-active {
         opacity: 0.3;
         margin-top: 30px;
     }
     .slick-center {
         opacity: 1;
-        margin-top: 0;
+        margin: 0;
         .reviews__descr {
             font-size: 14px;
             line-height: 20px;
@@ -56,4 +55,5 @@
         top: 30px;
         left: 58%;
     }
+
 }

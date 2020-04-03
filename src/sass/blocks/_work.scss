@@ -10,22 +10,25 @@
 	}
 	&__img {
 	margin-bottom: 27px;
+	width: 100%;
+    padding: 0 5px;
 	}
 	&__descr {
-	&_subtitle {
-		font-size: 18px;
-		font-weight: 700;
-		text-align: center;
-		color: #ec644b;
-		margin-bottom: 10px;
-	}
-	&_text {
-		text-align: justify;
-		max-width: 359px;
-		font-size: 14px;
-		font-weight: 300;
-		color: #3a3a3a;
-		line-height: 23px;
-	}
+		padding: 0 10px;
+		&_subtitle {
+			font-size: 18px;
+			font-weight: 700;
+			text-align: center;
+			color: #ec644b;
+			margin-bottom: 10px;
+		}
+		&_text {
+			text-align: justify;
+			max-width: 359px;
+			font-size: 14px;
+			font-weight: 300;
+			color: #3a3a3a;
+			line-height: 23px;
+		}
 	}
 }

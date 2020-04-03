@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 15px;
+    }
+    .contacts {
+        flex-direction: column;
+        &__btn {
+            margin-top: 10px;
+        }
+    }
+    .main {
+        &__title {
+            font-size: 60px;
+        }
+        &__subtitle {
+            font-size: 34px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .menu_item {
+        padding: 0 11px;
+    }
+    .main {
+        &__description {
+            font-size: 20px;
+        }
+        &__title {
+            font-size: 48px;
+        }
+        &__subtitle {
+            font-size: 26px;
+        }
+    }
+    .agent__descr {
+        max-width: 830px;
+    }
+    .prices__item {
+        margin: 0 5px;
+    }
+}
