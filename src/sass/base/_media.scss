@@ -15,27 +15,82 @@
         &__subtitle {
             font-size: 34px;
         }
-    }
-}
-@media (max-width: 991px) {
-    .menu_item {
-        padding: 0 11px;
-    }
-    .main {
         &__description {
-            font-size: 20px;
+            margin-top: 20px;
         }
-        &__title {
-            font-size: 48px;
-        }
-        &__subtitle {
-            font-size: 26px;
-        }
+    }
+    .menu_item {
+        padding: 0px 11px;
     }
     .agent__descr {
         max-width: 830px;
     }
     .prices__item {
         margin: 0 5px;
+    }
+}
+@media (max-width: 991px) {
+    .contacts {
+        align-items: flex-end;
+        &__connection {
+            margin-right: 0;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+        &__btn {
+            font-size: 11px;
+            width: 128px;
+            height: 36px;
+        }
+    }
+    .menu_item {
+        padding: 0 5px;
+        font-size: 12px;
+    }
+    .main {
+        &__description {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        &__title {
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 22px;
+        }
+        &__btn {
+            font-size: 13px;
+            padding: 16px 34px;
+        }
+    }
+    .header__logo {
+        padding-right: 10px;
+    }
+    .prices__descr_central {
+        font-size: 24px;
+    }
+    .prices__btn {
+        width: 137px;
+        height: 36px;
+    }
+    .feed-form input {
+        width: 222px;
+    }
+    .reviews .slick-next {
+        left: 60%;
+    }
+    .reviews .slick-prev {
+        left: 37%;
+    }
+    .reviews .slick-center .reviews__descr {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .communication-form {
+        padding: 62px 10px 79px 10px;
+    }
+    .communication-form__form-wrapper {
+        padding: 28px 30px 25px 30px;
     }
 }
