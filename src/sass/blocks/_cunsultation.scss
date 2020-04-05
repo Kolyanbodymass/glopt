@@ -22,6 +22,10 @@
     &__wrapper {
         margin: 68px 0 53px 0;
         position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 15%;
     }
     &__btn {
         padding: 18px 31px;

@@ -74,9 +74,6 @@
         width: 137px;
         height: 36px;
     }
-    .feed-form input {
-        width: 222px;
-    }
     .reviews .slick-next {
         left: 60%;
     }
@@ -93,4 +90,104 @@
     .communication-form__form-wrapper {
         padding: 28px 30px 25px 30px;
     }
+    .consultation__wrapper {
+        padding: 0 2%;
+    }
+    .overlay_modal {
+        width: 85%;
+    }
+    #modal {
+        .consultation__subtitle {
+            font-size: 22px;
+        }
+        .img-avatar {
+            margin: 0 auto 0 auto;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        flex-wrap: wrap;
+    }
+    .contacts {
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+        &__connection {
+            margin-right: 19px;
+        }
+    }
+    .menu_item {
+        padding: 0 4px;
+    }
+    .main {
+        padding: 23px 10px 50px 10px;
+        &__title {
+            font-size: 33px;
+        }
+        &__subtitle {
+            font-size: 19px;
+        }
+        &__functions_descr {
+            font-size: 12px;
+        }
+    }
+    .title {
+        font-size: 21px;
+    }
+    .official-descr {
+        font-size: 17px;
+    }
+    .work__descr_text {
+        line-height: 18px;
+    }
+    .prices__blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .prices__descr_bottom {
+        max-width: 205px;
+        margin: 0 10px 25px 10px;
+    }
+    .prices__item {
+        margin: 0 10px 20px 10px;
+    }
+    .reviews {
+        padding: 51px 15px 65px 15px;
+    }
+    .reviews .slick-next {
+        left: 66%;
+    }
+    .reviews .slick-prev {
+        left: 31%;
+    }
+    .communication-form__form-wrapper {
+        padding: 28px 10px 25px 10px;
+    }
+    .feed-form input {
+        padding-left: 15px;
+    }
+    .overlay_modal {
+        width: 92%;
+    }
+    #modal {
+        .feed-form input {
+            font-size: 11px;
+            padding-left: 10px;
+            height: 34px;
+        }
+        .consultation__btn {
+            padding: 13px 31px;
+        }
+        .consultation__wrapper-btn {
+            top: 134px;
+        }
+    }
+    .footer__website-creation, .footer__year {
+        font-size: 11px;
+    }
+   
+}
+@media (max-width: 575px) {
+
 }

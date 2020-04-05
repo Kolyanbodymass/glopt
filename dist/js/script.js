@@ -6,15 +6,14 @@ $(document).ready(function(){ /*функция, которая подключа�
 		speed: 1200,
 		prevArrow: '<button type="button" class="slick-prev"><img src="icons/arrow_left.svg"></button>',
 		nextArrow: '<button type="button" class="slick-next"><img src="icons/arrow_right.svg"></button>',
-		// responsive: [
-		// 	{
-		// 		breakpoint: 768,
-		// 		settings: {
-		// 		centerMode: true,
-		// 		centerPadding: '40px',
-		// 		slidesToShow: 3
-		// 		}
-		// 	},
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+				centerMode: true,
+				slidesToShow: 1
+				}
+			}
 		// 	{
 		// 		breakpoint: 480,
 		// 		settings: {
@@ -23,7 +22,7 @@ $(document).ready(function(){ /*функция, которая подключа�
 		// 		slidesToShow: 1
 		// 		}
 		// 	}
-		// ]
+		]
 	});
 
 	// Modal
