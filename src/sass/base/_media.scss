@@ -322,6 +322,29 @@
 }
 
 @media (max-width: 425px) {
-
+    .main__functions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__wrapper_bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer__confidentiality {
+        margin-left: 0;
+        margin-top: 10px;
+        order: 3;
+    }
+    .footer__website-creation {
+        order: 2;
+    }
+    .hamburger {
+        right: -5px;
+        top: -8px;
+    }
+    .menu {
+        width: 76%;
+    }
 }
 
