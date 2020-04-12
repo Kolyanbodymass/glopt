@@ -319,6 +319,16 @@
             margin: 0 auto;
         }
     }
+    #modal .consultation__subtitle {
+        font-size: 19px;
+    }
+    .consultation__close {
+        top: 0;
+        right: -17px;
+    }
+    #modal .consultation__wrapper-btn {
+        top: 224px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -345,6 +355,9 @@
     }
     .menu {
         width: 76%;
+    }
+    #modal .consultation__subtitle {
+        font-size: 13px;
     }
 }
 
